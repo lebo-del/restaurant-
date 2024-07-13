@@ -1,16 +1,28 @@
 .background{
-    background-image: url(image/wood.jpg);
+    text-align: center;
+    background-image: url(image/wood.jpg); 
+    color: white;
 }
 .celeb{
+    text-align: center;
     padding: 10%;
     border: 10px solid white;
-    width: 150px;
-    height: 150px;
     color: azure;
-    text-indent: 50%;
     font-weight: 800;
 }
-.drink{
-    padding: 8%;
-    color: white;
+.column{
+    text-align: center;
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+.row::after{
+    text-align: center;
+    content: "";
+    clear: both;
+    display: table;
+}
+.container{
+    text-align: center;
+    box-sizing: border-box;
 }
